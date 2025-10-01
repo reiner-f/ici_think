@@ -5,9 +5,10 @@ public class University {
     private String country;
     private int ranking;
 
-    public String getName() {
-        return name;
-    }
+// Constructor, getteri, setteri
+public String getName() {
+    return name;
+}
 
     public void setName(String name) {
         this.name = name;
@@ -34,5 +35,4 @@ public class University {
         this.country = country;
         this.ranking = ranking;
     }
-// Constructor, getteri, setteri
 }
