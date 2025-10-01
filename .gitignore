@@ -2,6 +2,25 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# IntelliJ project files
+.idea/
+*.iml
+
+# Build output
+out/
+target/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files (evită breșe de securitate)
+.env
+*.key
+*.pem
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
