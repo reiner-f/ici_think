@@ -9,6 +9,6 @@ public class Main {
         University u = new University("UAIC", "RO", 100);
         System.out.println(u.getName());
         u.setName("FSV");
-        System.out.println(u.getName());
+        System.out.println(u.getName()); 
     }
 }
